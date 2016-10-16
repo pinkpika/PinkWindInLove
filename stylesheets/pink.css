@@ -1,0 +1,15 @@
+body {
+  background: #ffd8f0;
+}
+
+.pink {
+  width: 300px;
+  height: 260px;
+  margin: 2% auto;
+  background: url('test0.png') left center;
+  animation: play 1s steps(10) infinite;
+}
+
+@keyframes play {
+    100% { background-position: -3000px; }
+}
